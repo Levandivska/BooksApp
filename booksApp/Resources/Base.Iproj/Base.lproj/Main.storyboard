@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16095" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="XbO-VT-9Hv">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16084.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Qck-o8-y1I">
+            <objects>
+                <tabBarController id="XbO-VT-9Hv" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="bDj-cH-Akc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="b1J-yq-0fw" kind="relationship" relationship="viewControllers" id="Vxx-yD-Jfm"/>
+                        <segue destination="e79-ge-nYf" kind="relationship" relationship="viewControllers" id="bGh-E5-mEa"/>
+                        <segue destination="HVM-Y2-HpB" kind="relationship" relationship="viewControllers" id="Ug5-ux-aEj"/>
+                        <segue destination="f8h-nB-Sbo" kind="relationship" relationship="viewControllers" id="S4p-Ci-JGD"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a8T-GA-Imo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1003" y="-445"/>
+        </scene>
+        <!--Home Page View Controller-->
+        <scene sceneID="Sdy-gs-9lG">
+            <objects>
+                <viewController id="I7a-sy-nbU" customClass="HomePageViewController" customModule="booksApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="woo-Wb-3W8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="t7J-8a-KB1"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="X9h-Hf-QWP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vkx-ey-KzB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1389.8550724637682" y="-1164.5089285714284"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="xo2-Sm-C5z">
+            <objects>
+                <viewController id="HVM-Y2-HpB" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8Od-Mt-wU1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="lJX-PT-8dj"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="person.crop.circle" catalog="system" id="xNa-KM-lxp"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DcV-oa-PfB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1737" y="-1220"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tjv-kR-xDP">
+            <objects>
+                <viewController id="e79-ge-nYf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EAb-nt-S6t">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="lBj-Ae-khG"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="heart" catalog="system" id="oOg-dH-RPO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ouh-gu-wWX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-648" y="-1254"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Rgk-O9-iMB">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="b1J-yq-0fw" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="bell" catalog="system" id="3Tr-8m-TMd"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="a4M-Ek-VWi">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="I7a-sy-nbU" kind="relationship" relationship="rootViewController" id="fuN-3f-4wL"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UNA-AO-iNJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="259" y="-1080"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Pyq-hL-Wyx">
+            <objects>
+                <viewController id="f8h-nB-Sbo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ycj-Q6-6M6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="VzM-xO-IwD"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="paperplane" catalog="system" id="9fj-gr-rNi"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vov-bo-jaB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="720" y="-338"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bell" catalog="system" width="128" height="124"/>
+        <image name="heart" catalog="system" width="128" height="109"/>
+        <image name="paperplane" catalog="system" width="128" height="121"/>
+        <image name="person.crop.circle" catalog="system" width="128" height="121"/>
+    </resources>
+</document>
